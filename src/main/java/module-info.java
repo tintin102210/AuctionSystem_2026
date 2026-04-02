@@ -5,4 +5,5 @@ module com.auction.auctionsystem_2026 {
 
     opens com.auction.auctionsystem_2026 to javafx.fxml;
     exports com.auction.auctionsystem_2026;
+    requires java.sql;
 }
