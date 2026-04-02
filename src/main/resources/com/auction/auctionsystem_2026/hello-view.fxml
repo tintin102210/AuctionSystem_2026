@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.auction.auctionsystem_2026.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auction.auctionsystem_2026.views.HelloController">
+   <children>
+      <Label layoutX="201.0" layoutY="73.0" text="HỆ THỐNG ĐẤU GIÁ 2026" />
+      <TextField fx:id="txtUsername" layoutX="195.0" layoutY="99.0" promptText="Tên đăng nhập" />
+      <PasswordField fx:id="txtPassword" layoutX="195.0" layoutY="135.0" promptText="Mật khẩu" />
+      <Button fx:id="btnLogin" layoutX="227.0" layoutY="175.0" mnemonicParsing="false" onAction="#onLoginClick" text="ĐĂNG NHẬP" />
+   </children>
+</AnchorPane>
