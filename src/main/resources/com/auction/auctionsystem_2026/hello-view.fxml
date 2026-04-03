@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auction.auctionsystem_2026.views.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auction.auctionsystem_2026.views.HelloController">
    <children>
       <Label layoutX="201.0" layoutY="73.0" text="HỆ THỐNG ĐẤU GIÁ 2026" />
       <TextField fx:id="txtUsername" layoutX="195.0" layoutY="99.0" promptText="Tên đăng nhập" />
+
+      
       <PasswordField fx:id="txtPassword" layoutX="195.0" layoutY="135.0" promptText="Mật khẩu" />
       <Button fx:id="btnLogin" layoutX="227.0" layoutY="175.0" mnemonicParsing="false" onAction="#onLoginClick" text="ĐĂNG NHẬP" />
    </children>
