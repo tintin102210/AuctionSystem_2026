@@ -8,8 +8,7 @@
       <Label layoutX="201.0" layoutY="73.0" text="HỆ THỐNG ĐẤU GIÁ 2026" />
       <TextField fx:id="txtUsername" layoutX="195.0" layoutY="99.0" promptText="Tên đăng nhập" />
 
-      
-      <PasswordField fx:id="txtPassword" layoutX="195.0" layoutY="135.0" promptText="Mật khẩu" />
+            <PasswordField fx:id="txtPassword" layoutX="195.0" layoutY="135.0" promptText="Mật khẩu" />
       <Button fx:id="btnLogin" layoutX="227.0" layoutY="175.0" mnemonicParsing="false" onAction="#onLoginClick" text="ĐĂNG NHẬP" />
    </children>
 </AnchorPane>
